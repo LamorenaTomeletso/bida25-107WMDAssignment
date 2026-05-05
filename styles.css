@@ -101,3 +101,22 @@ footer {
 .header-nav ul li a.active {
     color: #c7a349; 
 }
+
+.hero {
+    background-image: url("images/heroimage.webp");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+}
